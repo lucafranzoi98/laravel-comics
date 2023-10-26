@@ -113,5 +113,67 @@ return [
    ],
    'navVoices' => [
       'Characters', 'Comics', 'Movies', 'Tv', 'Games', 'Collectibles', 'Video', 'Fans', 'News', 'Shop'
+   ],
+   'bannerItems' => [
+      [  
+         'name'=> "Digital comics",
+         'img'=> "buy-comics-digital-comics.png",
+      ],
+      [
+         'name'=> "DC merchandise",
+         'img'=> "buy-comics-merchandise.png",
+      ],
+      [
+         'name'=> "Subscription",
+         'img'=> "buy-comics-subscriptions.png",
+      ],
+      [
+         'name'=> "Comic shop locator",
+         'img'=> "buy-comics-shop-locator.png",
+      ],
+      [
+         'name'=> "DC power visa",
+         'img'=> "buy-dc-power-visa.svg"
+      ]
+   ],
+   'footerVoices' => [
+      [
+         'name'=> "DC Comics",
+         'voices'=> ["Characters", "Comics", "Movies", "Tv", "Games", "Videos", "News"]
+      ],
+      [
+         'name'=> "Shop",
+         'voices'=> ["Shop DC", "Shop DC Collectibles"]
+      ],
+      [
+         'name'=> "DC",
+         'voices'=> ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subscriptions", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"]
+      ],
+      [
+         'name'=> "Sites",
+         'voices'=> ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
+      ]
+   ],
+   'socialIcons' => [
+      [
+         'name'=> "facebook",
+         'img'=> "footer-facebook.png"
+      ],
+      [
+         'name'=> "twitter",
+         'img'=> "footer-twitter.png"
+      ],
+      [
+         'name'=> "youtube",
+         'img'=> "footer-youtube.png"
+      ],
+      [
+         'name'=> "periscope",
+         'img'=> "footer-periscope.png"
+      ],
+      [
+         'name'=> "pinterest",
+         'img'=> "footer-pinterest.png"
+      ]
    ]
 ];

@@ -5,12 +5,136 @@ a{
    text-decoration: none;
 }
 
-.upper-header{
-   background-color: $dc-primary;
-   font-size: 0.75rem;
+.dc_max_width{
+   max-width: 1170px;
 }
 
 #search{
    border: none;
    border-bottom: 2px solid $dc-primary;
 }
+
+header{
+
+   .upper-header{
+      background-color: $dc-primary;
+      font-size: 0.75rem;
+   }
+
+   nav{
+      height: 100px; 
+
+      a {
+      color: $dc-dark;
+      font-size: 0.75rem;
+      font-weight: 600;
+      } 
+   }   
+}
+
+.upper-main{
+   background-image: url("src/assets/img/jumbotron.jpg");
+   background-size: cover;
+   height: 320px;
+
+   .badge-jumbotron{
+      color: white;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      font-weight: 600;
+      background-color: $dc-primary;
+      padding: 0.5rem 2rem;
+      transform: translate(0, 50%);
+      font-size: 1.5rem;
+   }
+}
+
+.lower-main{
+   background-color: $dc-darker;
+
+   .comic-thumb{
+      width: 100%;
+      aspect-ratio: 1;
+      overflow: hidden;
+      display: block;
+   }
+
+   .comic-series{
+      font-size: 0.85rem;
+   }
+
+   .load-more-btn{
+      background-color: $dc-primary;
+      font-weight: 500;
+      font-size: 0.85rem;
+   }
+}
+
+footer{
+
+   .banner{
+      background-color: $dc-primary;
+
+         span{
+            font-size: 0.75rem;
+         }
+   }
+
+   .site-map{
+      background-image: url("../img/footer-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+         .footer-menu{
+            height: 260px;
+         }
+
+         .site-map-page{
+         color: white;
+         text-transform: uppercase;
+         font-weight: 600;
+         }
+
+         .site-map-sub{
+            font-size: 0.65rem;
+            color: rgb(169, 169, 169);            
+         }
+
+         img{
+            width: 475px;
+            height: 475px;
+            margin-top: -130px;
+            margin-bottom: -150px;
+         }
+      }
+
+   }
+
+   .lower-footer{
+      background-color: $dc-dark;
+
+      button{
+         color: white;
+         text-transform: uppercase;
+         border: 2px solid $dc-primary;
+         border-radius: 0;
+         font-size: 0.75rem;
+         background-color: rgba($color: #000000, $alpha: 0);
+         font-weight: 600;
+      }
+
+      a {
+         color: $dc-primary;
+         text-transform: uppercase;
+         text-decoration: none;
+         font-weight: 600;
+      }
+      
+      img {
+         width: 30px;
+         aspect-ratio: 1;
+      }
+
+}
+
