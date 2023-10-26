@@ -1,6 +1,5 @@
 <footer>
 
-   <!-- Blue Banner -->
    <div class="banner">
 
       <div class="container py-5 d-flex justify-content-around dc_max_width">
