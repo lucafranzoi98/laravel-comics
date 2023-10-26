@@ -1,0 +1,16 @@
+@use 'variables.scss' as *;
+@import '~bootstrap/scss/bootstrap';
+
+a{
+   text-decoration: none;
+}
+
+.upper-header{
+   background-color: $dc-primary;
+   font-size: 0.75rem;
+}
+
+#search{
+   border: none;
+   border-bottom: 2px solid $dc-primary;
+}
