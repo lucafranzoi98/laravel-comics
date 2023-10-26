@@ -6,7 +6,7 @@
 
          @foreach ($data['bannerItems'] as $item)
          <div class="d-flex align-items-center">
-            <img src="{{Vite::asset('resources/img/$item[img]')}}" class="me-3">
+            <img src="{{Vite::asset('resources/img/' . $item['img'])}}" class="me-3" width="32px">
             <span class="text-white text-uppercase">{{$item['name']}}</span>
          </div>
          @endforeach
@@ -51,7 +51,7 @@
 
             @foreach ($data['socialIcons'] as $icon)
             <a href="#" class="me-3">
-               <img src="{{Vite::asset('resources/img/$icon[img]')}}">
+            <img src="{{ Vite::asset('resources/img/' . $icon['img']) }}">
             </a>
             @endforeach
 

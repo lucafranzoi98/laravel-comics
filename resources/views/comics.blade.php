@@ -15,7 +15,7 @@
          @foreach ($data['comics'] as $comic)
          <div class="col-2 mb-3 p-2">
             <a href="#" class="comic-thumb mb-2">
-               <img src="{{Vite::asset('resources/img/$comic[thumb]')}}" class="w-100">
+               <img src="{{$comic['thumb']}}" class="w-100">
             </a>
             <a href="#" class="text-white text-uppercase comic-series">{{$comic['title']}}</a>
          </div>
