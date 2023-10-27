@@ -15,7 +15,7 @@
       <div class="h-100 d-flex">
          @foreach ($data['navVoices'] as $voice)
          <div class="h-100 d-flex align-items-center ms-3 position-relative">
-            <a href="#" class="text-uppercase">
+            <a href="{{strtolower($voice)}}" class="text-uppercase">
                {{ $voice }}
             </a>
          </div>
